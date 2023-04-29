@@ -35,7 +35,7 @@
     ```
 3. Clone the repository
     ```
-    https://github.com/AlgoMyth/The-Nearest-Buy.git
+    git clone https://github.com/Arnav-Sharmaa/RestFul-API-to-return-Price.git
     ```
 4. Go to the Project Folder
     ```
