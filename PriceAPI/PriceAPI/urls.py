@@ -17,6 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from api.views import get_price,home
+from django.conf.urls.static import static
+from django.conf import settings
 
 
 urlpatterns = [
@@ -24,5 +26,5 @@ urlpatterns = [
     path("",home,name="Home"),
     path('price/', get_price, name='get_price'),
 
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
