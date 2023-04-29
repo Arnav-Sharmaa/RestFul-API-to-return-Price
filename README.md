@@ -2,7 +2,7 @@
 # **Assignment Submission**
 ## **About the project**
 
-<p>A RestFul API that returns the price mentioned on this <a href="https://www.metal.com/Lithium-ion-Battery/202303240001"> Website</a> 
+<p>A RestFul API that returns the price mentioned on this <a href="https://www.metal.com/Lithium-ion-Battery/202303240001"> Website</a> </p>
 ## **Technologies Used**
 
 
