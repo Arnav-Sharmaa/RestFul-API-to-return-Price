@@ -2,7 +2,11 @@
 # **Assignment Submission**
 ## **About the project**
 
-<p>A RestFul API that returns the price mentioned on this <a href="https://www.metal.com/Lithium-ion-Battery/202303240001"> Website</a> </p>
+<p>A RestFul API that returns the price mentioned on this <a href="https://www.metal.com/Lithium-ion-Battery/202303240001"> Website</a> .
+<br>
+ Every time the API is hit,  python's beautiful soup library scrapping script is run which returns the latest price of the mentioned article to the Django view , which is then updated to the database using Object-relational mapping and the returned to the django API view.
+ <a href="https://dolphin-app-5muqt.ondigitalocean.app/price/">Deployed API Link </a>
+</p>
 
 
 ## **Technologies Used**
